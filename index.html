@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Welcome to Son Pham Profile</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><[endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/SonPham.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background: #000;
+        }
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            transform: translateX(-50%) translateY(-50%);
+            background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+            background-size: cover;
+            transition: 1s opacity;
+        }
+        .stopfade {
+            opacity: .5;
+        }
+
+        #polina {
+            font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+            font-weight:100;
+            background: rgba(0,0,0,0.3);
+            color: white;
+            padding: 2rem;
+            width: 33%;
+            margin:2rem;
+            float: right;
+            font-size: 1.2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            margin-top: 0;
+            letter-spacing: .3rem;
+        }
+        #polina button {
+            display: block;
+            width: 80%;
+            padding: .4rem;
+            border: none;
+            margin: 1rem auto;
+            font-size: 1.3rem;
+            background: rgba(255,255,255,0.23);
+            color: #fff;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: .3s background;
+        }
+        #polina button:hover {
+            background: rgba(0,0,0,0.5);
+        }
+
+        a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            background:rgba(0,0,0,0.5);
+            padding: .5rem;
+            transition: .6s background;
+        }
+        a:hover{
+            background:rgba(0,0,0,0.9);
+        }
+        @media screen and (max-width: 500px) {
+            div{width:70%;}
+        }
+        @media screen and (max-device-width: 800px) {
+            html { background: url(Snapshots/Aloha-Mundo.jpg) #000 no-repeat center center fixed; }
+            #bgvid { display: none; }
+        }
+
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<video poster="Snapshots/Hello-World.jpg" id="bgvid" playsinline autoplay muted loop>
+    <source src="WEBM/Hello-World.webm" type="video/webm">
+    <source src="MP4/Hello-World.mp4" type="video/mp4">
+</video>
+<!-- NAVBAR
+================================================== -->
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Son Pham</a>
+        </div>
+        <div id="mynavbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav><br><br>
+<section id="about">
+    <div class="container text-center">
+        <div class="row">
+            <h2 class="section-heading">Son Pham</h2>
+            <h3 class="section-heading">Software Engineering Technology</h3>
+        </div>
+        <div class="row">
+           <div class="col-sm-2 col-sm-offset-5">
+               <div class="team-member">
+                   <img src="Picture/Profile.jpg" class="img-responsive img-circle" >
+                   <p>Software Developer</p>
+                   <a href="https://www.linkedin.com/in/sonpb/"><img width="15%" src="Picture/Linkedin.png"></a>
+               </div>
+           </div>
+        </div>
+        <div class="row">
+            <div class="text-center">
+                <h4>I am currently a student at Centennial College<br>
+                    Having experience at customer service. Focusing on object-oriented approaches to multiple platform development.<br>
+                    Hard working, result-driven, highly motivated and responsible at work. </h4>
+            </div>
+        </div>
+        <div class="row">
+            <blockquote class="blockquote-reverse">
+                <p>Stay Hungry, Stay Foolish</p>
+                <footer style="color: white">Steve Job</footer>
+            </blockquote>
+        </div>
+    </div>
+</section>
+
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-circle" src="Picture/Language.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Programming</h2>
+            <p>Java, JavaScript, HTML, CSS, SQL, C#, Visual Studio .Net, SQL</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle" src="Picture/Tool.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Development Tool</h2>
+            <p>IntelliJ IDEA, Microsoft Visual, WebStorm IDE, Visual Studio Code</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle" src="Picture/Application.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Application</h2>
+            <p>Microsoft Office Suite, MS Project, MS Visio, Visual Paradigm </p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div id="project" class="row featurette container-fluid">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Java Script Course<span class="text-muted">Focusing on functional</span></h2>
+            <p class="lead">Final Project with auto transfer money amount using cookie, regex to generate type of Credit Card, etc. </p>
+            <p><a class="btn btn-default" href="http://studentweb.cencol.ca/bpham7/Comp125_project/index.html" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="Picture/Sea%20Side.png" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div  class="row featurette container-fluid">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Customize Object-Oriented C# <span class="text-muted">Feel the Code</span></h2>
+            <p class="lead">Good at C# language, be able to analyze and solve problem Programming. Concentrate on Object-Oriented</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" src="Picture/C%23.png" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Self-Study with React Framework <span class="text-muted">Coming Soon</span></h2>
+            <p class="lead">Update to the modern Frame work such as React, Angular. Self-Study to improve knowledge that cannot come from College</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" src="Picture/React.png" alt="Generic placeholder image">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+<section>
+    <div id="contact" class="container">
+
+    </div>
+</section>
+    <!-- FOOTER -->
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017, Son Pham - Software Developer</p>
+    </footer>
+
+</div><!-- /.container -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="js/vendor/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
+    var vid = document.getElementById("bgvid");
+    var pauseButton = document.querySelector("#polina button");
+
+    if (window.matchMedia('(prefers-reduced-motion)').matches) {
+        vid.removeAttribute("autoplay");
+        vid.pause();
+        pauseButton.innerHTML = "Paused";
+    }
+
+    function vidFade() {
+        vid.classList.add("stopfade");
+    }
+
+    vid.addEventListener('ended', function()
+    {
+// only functional if "loop" is removed
+        vid.pause();
+// to capture IE10
+        vidFade();
+    });
+
+
+    pauseButton.addEventListener("click", function() {
+        vid.classList.toggle("stopfade");
+        if (vid.paused) {
+            vid.play();
+            pauseButton.innerHTML = "Pause";
+        } else {
+            vid.pause();
+            pauseButton.innerHTML = "Paused";
+        }
+    })
+</script>
+</body>
+</html>
